@@ -1,43 +1,93 @@
-<html>
+<html lang="en" class="dark">
 <head>
-	<title>AREA_51</title>
-  <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
-  <style>
-    body {
-      font-family: 'Source Code Pro';
-      font-size: 15px;
-    }
-  </style>
-  <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/Tt-Area51/GPT/main/favicon.ico?v2">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AREA_51 | LostInSpace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/Tt-Area51/GPT/main/favicon.ico?v2">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'code': ['Source Code Pro', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #202124;
+            color: #00ff00;
+        }
+    </style>
 </head>
-<body style="background-color: #202124">
-  <h1 style="color: darkgreen;">Hi,I'm LostInSpace👽</h1>
-  <h1 style="text-align:left;color: green;" >AREA_51</h1>
-    
-    <iframe class="airtable-embed" src="https://airtable.com/embed/shrIaOtgTXOGGT36x?backgroundColor=gray&layout=card" frameborder="0" onmousewheel="" width="80%" height="40%" style="background: transparent; border: 1px solid #ccc;"></iframe>
-	<br>
-   	<br>
-	<!--width="1193" height="671"--->
-	<iframe width="60" height="40" src="https://www.youtube.com/embed/grWRSyptTnk" title="YouTube video player"
-		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen></iframe>
+<body class="font-code p-6 bg-dark text-green-500 space-y-6">
+    <header class="text-center">
+        <h1 class="text-4xl font-bold mb-2">Hi, I'm LostInSpace 👽</h1>
+        <h2 class="text-3xl text-green-600">AREA_51</h2>
+    </header>
 
-	<!--width="427" height="240"-->
-	<iframe width="60" height="40" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player"
-		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen></iframe>
+    <main class="max-w-6xl mx-auto space-y-6">
+        <section class="bg-gray-800 p-4 rounded-lg">
+            <h3 class="text-xl mb-4">Airtable Embed</h3>
+            <iframe 
+                class="w-full h-96 border border-gray-600 rounded-lg" 
+                src="https://airtable.com/embed/shrIaOtgTXOGGT36x?backgroundColor=gray&layout=card" 
+                frameborder="0"
+            ></iframe>
+        </section>
 
-	<!--width="400" height="225"-->
-	<iframe width="60" height="40" src="https://www.youtube.com/embed/Z-VfaG9ZN_U" title="YouTube video player"
-		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen></iframe>
+        <section class="bg-gray-800 p-4 rounded-lg">
+            <h3 class="text-xl mb-4">Video Collection</h3>
+            <div class="grid grid-cols-3 gap-4">
+                <iframe 
+                    class="w-full aspect-video rounded-lg" 
+                    src="https://www.youtube.com/embed/grWRSyptTnk" 
+                    title="YouTube Video 1" 
+                    allowfullscreen
+                ></iframe>
+                <iframe 
+                    class="w-full aspect-video rounded-lg" 
+                    src="https://www.youtube.com/embed/5qap5aO4i9A" 
+                    title="YouTube Video 2" 
+                    allowfullscreen
+                ></iframe>
+                <iframe 
+                    class="w-full aspect-video rounded-lg" 
+                    src="https://www.youtube.com/embed/Z-VfaG9ZN_U" 
+                    title="YouTube Video 3" 
+                    allowfullscreen
+                ></iframe>
+                <iframe 
+                    class="w-full aspect-video rounded-lg" 
+                    src="https://www.youtube.com/embed/t9-IYfqecbk" 
+                    title="Relaxing Arabic Music" 
+                    allowfullscreen
+                ></iframe>
+                <iframe 
+                    class="w-full aspect-video rounded-lg" 
+                    src="https://www.youtube.com/embed/NPwBo7jjibU?list=RDNPwBo7jjibU" 
+                    title="Thai Music Video" 
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </section>
 
-	<iframe width="60" height="40" src="https://www.youtube.com/embed/t9-IYfqecbk" title="Relaxing Arabic Music ● Age of Mirage ● Meditation Yoga Music for Stress Relief, Healing, Relax, SPA" 
-		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	
-	<iframe width="60" height="40" src="https://www.youtube.com/embed/NPwBo7jjibU?list=RDNPwBo7jjibU" title="ห้องที่ไม่เคยสว่าง - The Yers「Official MV」" 
-		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section class="bg-gray-800 p-4 rounded-lg">
+            <h3 class="text-xl mb-4">Google Drive Preview</h3>
+            <iframe 
+                class="w-full h-[600px] rounded-lg" 
+                src="https://drive.google.com/file/d/1_QqszzTpthdN1EjsxEwkDDuAGE0No9LK/preview" 
+                allow="autoplay"
+            ></iframe>
+        </section>
+    </main>
 
-	<iframe src="https://drive.google.com/file/d/1_QqszzTpthdN1EjsxEwkDDuAGE0No9LK/preview" width="1131" height="800" allow="autoplay"></iframe>
+    <footer class="text-center text-gray-500 mt-6">
+        <p>© 2024 LostInSpace | AREA_51</p>
+    </footer>
 </body>
-</html>
